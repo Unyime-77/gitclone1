@@ -8,6 +8,8 @@ import ChaindustryFullstack from '@/assets/ChaindustryFullstack.png'
 import '@/styles/DevPage.css'
 import Learnmate from '@/assets/Learnmate.png'
 import Trendmart from '@/assets/Trendmart.png'
+import quiz from '@/assets/Quiz.png'
+import NFT from '@/assets/NFT.png'
 
 export default function DevelopmentPortfolio() {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -30,56 +32,56 @@ export default function DevelopmentPortfolio() {
       title: 'TrendMart Marketplace',
       description: 'A modern, fully responsive B2C e-commerce single-page application (SPA) built to showcase expertise in contemporary frontend architecture. It simulates a clean product browsing and shopping experience using dynamic data from a third-party API. The project demonstrates a mastery of global state management and component lifecycle in a production-like environment.',
       thumbnail: Trendmart,
-      techStack: ['React', 'Stripe', 'Node.js', 'PostgreSQL'],
-      type: 'fullstack',
+      techStack: ['React', 'Zucstand', 'Tailwind CSS'],
+      type: 'frontend',
       featured: false,
       liveLink: 'https://trend-mart-zeta.vercel.app/',
       githubLink: 'https://github.com/Akwanw3/TrendMart'
     },
     {
       id: 3,
-      title: 'FitLife Pro Landing',
-      description: 'High-converting landing page for fitness app with animated sections, testimonials, pricing tables, and newsletter signup. Optimized for performance and SEO.',
-      thumbnail: '/assets/projects/project3.jpg',
-      techStack: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
-      type: 'frontend',
-      featured: false,
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
+      title: 'NFT Marketplace',
+      description: 'A decentralized marketplace for minting, buying and selling NFTs, built for creators, collectors, and innovators.',
+      thumbnail: NFT,
+      techStack: ['Ether js', 'Solidity', 'Tailwind CSS','Typescript'],
+      type: 'fullstack',
+      featured: true,
+      liveLink: 'https://akpe-nft-market.vercel.app/',
+      githubLink: 'https://github.com/Akwanw3/MY-Nft-market-place'
     },
     {
       id: 4,
-      title: 'ProjectFlow SaaS',
-      description: 'Project management platform with task tracking, team collaboration, time tracking, and Gantt charts. Supports multiple workspaces and integrations.',
-      thumbnail: '/assets/projects/project4.jpg',
-      techStack: ['Next.js', 'TypeScript', 'Prisma', 'Redis'],
+      title: 'Quiz Arena',
+      description: 'A multiplater trivia game platform where players compete in real-time to test thier knowledge and climb the leaderboard.',
+      thumbnail: quiz,
+      techStack: ['Node.js', 'TypeScript', 'Web Socket', 'MongoDB'],
       type: 'fullstack',
       featured: true,
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
+      liveLink: 'https://arenadequiz.vercel.app/',
+      githubLink: 'https://github.com/Akwanw3/QuizArena-Frontend'
     },
     {
       id: 5,
-      title: 'Portfolio Showcase',
+      title: 'Learnmate',
       description: 'a modern educational landing page  It showcases clean UI design, responsive layouts, and component-based architecture focused on learning accessibility and simplicity, Built with performance in mind.',
       thumbnail: Learnmate,
-      techStack: ['React', 'Three.js', 'TailwindCss'],
+      techStack: ['React', 'framer motion', 'TailwindCss'],
       type: 'frontend',
       featured: false,
       liveLink: 'https://learnmate-pied.vercel.app/',
       githubLink: 'https://github.com/Akwanw3/Learnmate'
     },
-    {
-      id: 6,
-      title: 'ConnectHub Chat App',
-      description: 'Real-time chat application with group messaging, file sharing, voice/video calls, and end-to-end encryption for secure communications.',
-      thumbnail: '/assets/projects/project6.jpg',
-      techStack: ['React', 'Socket.io', 'WebRTC', 'MongoDB'],
-      type: 'fullstack',
-      featured: false,
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
-    }
+    // {
+    //   id: 6,
+    //   title: 'ConnectHub Chat App',
+    //   description: 'Real-time chat application with group messaging, file sharing, voice/video calls, and end-to-end encryption for secure communications.',
+    //   thumbnail: '/assets/projects/project6.jpg',
+    //   techStack: ['React', 'Socket.io', 'WebRTC', 'MongoDB'],
+    //   type: 'fullstack',
+    //   featured: false,
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com'
+    // }
   ];
 
   const filteredProjects = projects.filter(project => {
