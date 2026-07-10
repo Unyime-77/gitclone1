@@ -17,7 +17,7 @@ export default function Logo({ size = 'medium', animated = true }) {
           
           {/* Main logo text */}
           <div className="logo-text">
-            <span className="logo-sucre">UNYIME 💻</span>
+            <span className="logo-sucre">UNYIME_</span>
             <span className="logo-x">
               X
               <span className="x-sparkle">✦</span>
