@@ -65,8 +65,8 @@ export default function GetInTouchCard({
           {/* Alternative Contact Info */}
           <div className="quick-contact">
             <span className="contact-label">or email me directly at</span>
-            <a href="mailto:akpedasylva002@gmail.com" className="contact-email">
-              akpedasylva002@gmail.com
+            <a href="mailto:nsikanunyime3@gmail.com" className="contact-email">
+              nsikanunyime3@gmail.com
             </a>
           </div>
         </div>

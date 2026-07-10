@@ -36,7 +36,7 @@ export default function Footer() {
             </p>
             <div className="footer-socials">
               <a 
-                href="https://t.me/Web3_Sucre" 
+                href="https://t.me/brainbox926" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -45,7 +45,7 @@ export default function Footer() {
                 <Send size={20} />
               </a>
               <a 
-                href="https://github.com/Akwanw3" 
+                href="https://github.com/Unyime-77" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -63,7 +63,7 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://x.com/akwanwe" 
+                href="https://x.com/Unyime_X" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -72,14 +72,14 @@ export default function Footer() {
                 <Twitter size={20} />
               </a>
               <a 
-                href="mailto:akpedasylva002@gmail.com"
+                href="mailto:nsikanunyime3@gmail.com"
                 className="social-link"
                 aria-label="Email"
               >
                 <Mail size={20} />
               </a>
                <a 
-                href="https://Facebook.com/Viní Cíus" 
+                href="https://Facebook.com/UNYIME" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -88,7 +88,7 @@ export default function Footer() {
                 <Facebook size={20} />
               </a>
               <a 
-                href="https://wa.me/2349126355886" 
+                href="https://wa.me/2348156731279" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -107,7 +107,7 @@ export default function Footer() {
             &copy; {currentYear} SucreX. All rights reserved.
           </p>
           <p className="footer-made-with">
-            Made with <Heart size={16} className="heart-icon" /> by Sucre
+            Made with <Heart size={16} className="heart-icon" /> by UNYIME
           </p>
           <div className="footer-legal">
             <a href="#privacy">Privacy Policy</a>
