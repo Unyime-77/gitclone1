@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import '@/styles/Introduction.css';
 
-export default function TypingRoles({ name = 'ABIA AKPE' }) {
+export default function TypingRoles({ name = 'NSIKAN UNYIME' }) {
   const roles = [
     'Full-Stack Developer',
     'UI/UX Designer',

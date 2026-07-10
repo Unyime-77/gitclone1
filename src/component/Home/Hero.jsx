@@ -36,7 +36,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <Greeting userName={userName} />
-            <TypingRoles name="ABIA AKPE" />
+            <TypingRoles name="NSIKAN UNYIME" />
             
             {/* Buttons positioned further down */}
             <motion.div 

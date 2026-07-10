@@ -266,11 +266,11 @@ import { Github, Linkedin, Twitter, Mail, Dribbble, MessageCircle } from 'lucide
 
 export  function SocialLinks() {
   const socials = [
-    { icon: <Github size={24} />, name: 'GitHub', link: 'https://github.com/Akwanw3', username: '@akwanwe' },
+    { icon: <Github size={24} />, name: 'GitHub', link: 'https://github.com/Unyime-77', username: '@Unyime-77' },
     { icon: <Linkedin size={24} />, name: 'LinkedIn', link: 'www.linkedin.com/in/abiaxabia', username: 'Abia Abia' },
-    { icon: <Twitter size={24} />, name: 'Twitter', link: 'https://x.com/akwanwe', username: 'sucrex' },
+    { icon: <Twitter size={24} />, name: 'Twitter', link: 'https://x.com/Unyime_X', username: 'Unyime' },
     { icon: <Dribbble size={24} />, name: 'Dribbble', link: 'https://dribbble.com/abia-abia', username: 'abia abia' },
-    { icon: <Mail size={24} />, name: 'Email', link: 'mailto:akpedasylva002@gmail.com', username: 'akpedasylva002@gmail.com' },
+    { icon: <Mail size={24} />, name: 'Email', link: 'mailto:nsikanunyime3@gmail.com', username: 'nsikannyime3l@gmail.com' },
     { icon: <MessageCircle size={24} />, name: 'Discord', link: 'https://discordapp.com/users/1370066410159476857', username: 'Sucre' }
   ];
 

@@ -35,7 +35,7 @@ export default function AboutPage() {
               role="Web Developer & Product Designer"
               
               experience="5+ Years"
-              education="Computer Science"
+              education="Electrical & Electronics Engineering"
               
             />
           </aside>

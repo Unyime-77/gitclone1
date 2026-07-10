@@ -14,8 +14,8 @@ export default function ContactPage() {
       icon: <Mail size={28} />,
       title: 'Email Me',
       info: 'For general inquiries and project discussions',
-      link: 'mailto:akpedasylva002@gmail.com',
-      linkText: 'akpedasylva002@gmail.com'
+      link: 'mailto:nsikanunyime3@gmail.com',
+      linkText: 'nsikanunyime3@gmail.com'
     },
     {
       icon: <MapPin size={28} />,
