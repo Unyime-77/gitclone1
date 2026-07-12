@@ -104,7 +104,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div div className="footer-bottom">
           <p className="footer-copyright">
-            &copy; {currentYear} SucreX. All rights reserved.
+            &copy; {currentYear} Unyime_X. All rights reserved.
           </p>
           <p className="footer-made-with">
             Made with <Heart size={16} className="heart-icon" /> by UNYIME
